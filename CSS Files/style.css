@@ -348,14 +348,19 @@ header .container .list .main-li .main-a::before {
         font-size: 18px;
         height: 50px;
     }
+
+    header .container .logo {
+        height: 55px;
+    }
 }
 
 @media (max-width: 400px) {
     header .container .list .main-li .main-a {
         padding: 0 10px;
-        font-size: 14px;
+        font-size: 15px;
         height: 50px;
     }
+
 }
 
 
