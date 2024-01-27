@@ -58,7 +58,9 @@ ul {
 a {
     text-decoration: none;
 }
-
+a::selection{
+    background-color: transparent;
+}
 .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -471,6 +473,8 @@ header .mini-menu li a {
     text-transform: capitalize;
     font-weight: bold;
     z-index: 1;
+}::selection{
+    background-color: transparent;
 }
 
 header .mini-menu li a i {
