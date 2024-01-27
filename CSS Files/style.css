@@ -1469,6 +1469,12 @@ header .mini-menu img {
 
 }
 
+@media (max-width: 500px) {
+    .events .outer-container .inner-container .date .box {
+        margin: 0px 30px 15px;
+    }
+}
+
 .events .outer-container .inner-container .date .box:hover {
     border-color: var(--Second-color);
 }
