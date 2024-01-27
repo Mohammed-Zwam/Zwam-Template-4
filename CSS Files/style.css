@@ -8,7 +8,7 @@
     --back-ground: #181a1b;
     --box: #181a1b;
     --main-transition: 0.3s;
-    --main-padding: 120px;
+    --main-padding: 80px;
 }
 
 body {
@@ -198,6 +198,12 @@ a {
     }
 }
 
+@media (max-width: 500px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
 /***********************************************************************[End Global Rules]*********************************************************************/
 
@@ -340,7 +346,7 @@ header .container .list .main-li .main-a::before {
     }
 
     .logo a {
-        margin: auto;
+        margin: 0px auto;
     }
 
     header .container .list .main-li .main-a {
@@ -350,14 +356,14 @@ header .container .list .main-li .main-a::before {
     }
 
     header .container .logo {
-        height: 55px;
+        height: 45px;
     }
 }
 
 @media (max-width: 400px) {
     header .container .list .main-li .main-a {
-        padding: 0 10px;
-        font-size: 15px;
+        padding: 0 11px;
+        font-size: 17px;
         height: 50px;
     }
 
